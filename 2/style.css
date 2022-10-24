@@ -19,13 +19,16 @@
 
 }
 
-.right{    float:left;
- 
-}
-.sub{     display: column;
+.right{   
  
 }
 
+.sub{     
+    display: column;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
 
 .sub1{
     width: 150px;
@@ -45,7 +48,7 @@
     width: 100px;
     height: 150px;
     background-color: #ff9e6b;
-    margin-left: 150px;
+    float:left;
 
 }
 
@@ -53,7 +56,7 @@
     width: 250px;
     height: 100px;
     background-color: #8c2727
-
+    margin-left: 150px;
 }
 
 .footer{
